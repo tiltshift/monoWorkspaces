@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "dependencies": {
+    "core": "*",
+    "next": "^7.0.2"
+  },
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "prod": "next start"
+  }
+}

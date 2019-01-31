@@ -1,0 +1,8 @@
+{
+  "name": "mono-workspaces-test",
+  "private": true,
+  "workspaces": [
+    "core",
+    "web"
+  ]
+}
