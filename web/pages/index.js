@@ -2,4 +2,6 @@
 
 import * as React from "react";
 
-export default () => <div>Test Website!</div>;
+import core from "@fm/core";
+
+export default () => <div>Test Website! {core}</div>;

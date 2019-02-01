@@ -1,8 +1,9 @@
 {
-  "name": "web",
+  "name": "@fm/web",
+  "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "core": "*",
+    "@fm/core": "*",
     "next": "^7.0.2"
   },
   "scripts": {
