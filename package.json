@@ -1,8 +1,15 @@
 {
   "name": "mono-workspaces-test",
   "private": true,
-  "workspaces": [
-    "core",
-    "web"
-  ]
+  "workspaces": {
+    "packages": [
+      "*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native-web",
+      "**/react-native/**",
+      "**/react-native-web/**"
+    ]
+  }
 }

@@ -4,6 +4,9 @@
   "version": "0.0.1",
   "dependencies": {
     "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react-dom": "16.7.0",
+    "babel-plugin-react-native-web": "^0.10.0",
+    "react-native-web": "^0.10.0",
+    "react-art": "16.5.0"
   }
 }
