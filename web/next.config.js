@@ -1,3 +1,1 @@
-module.exports = {
-  target: "server"
-};
+module.exports = {};
