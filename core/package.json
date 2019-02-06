@@ -1,8 +1,9 @@
 {
-  "name": "core",
+  "name": "@custom/core",
   "version": "0.0.1",
+  "private": true,
   "dependencies": {
-    "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   }
 }
