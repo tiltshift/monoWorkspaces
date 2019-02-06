@@ -2,4 +2,4 @@
 
 import * as React from "react";
 
-export default () => <div>Test Website!</div>;
+export default () => <div>React Version: {React.version}</div>;
