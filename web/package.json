@@ -1,9 +1,10 @@
 {
-  "name": "web",
+  "name": "@custom/web",
   "version": "0.0.1",
+  "private": true,
   "dependencies": {
-    "core": "*",
-    "next": "^7.0.2"
+    "@custom/core": "0.0.1",
+    "next": "7.0.2"
   },
   "scripts": {
     "start": "next",
