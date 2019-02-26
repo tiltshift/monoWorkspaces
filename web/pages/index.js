@@ -2,4 +2,10 @@
 
 import * as React from "react";
 
-export default () => <div>React Version: {React.version}</div>;
+import { Test } from "core";
+
+export default () => (
+  <div>
+    React Version: {React.version} Test: <Test text={"test string"} />
+  </div>
+);
